@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  
+  .header {
+    background-image: url(/img/carousel-2.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 5rem;
+  }
+  #overlay{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(51,33,29,0.7);
+
+  }
+   .navigation {
+    height: 30vh;
+  }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+  }
+.navbar a {
+    text-decoration: none;
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #e5e5e5;
+    font-size: 1.1rem;
+  }
+ .navbar a:hover {
+    color: white;
+  }
+ .navbar button {
+    display: inline;
+    padding: 10px 20px;
+    background: 0;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+  
+
+ .navbar b {
+    font-size: 3rem;
+    
+  }
+ .navbar b {
+    display: inline;
+    color: white;
+  }
+  .banner{
+    text-align: center;
+    margin-top: 4%;
+  }
+  .navbar__nav a{
+    color: white;
+    transition: all 0.5s linear;
+  }
+
+  .navbar__nav a:hover{
+    color:coral;
+  }
+  .banner h3{
+    font-size: 2rem;
+    color: coral;
+  }
+  .banner h2{
+    font-size: 8rem;
+    color: white;
+  }
+  .banner h4{
+    font-size: 2rem;
+    color: white;
+  }
+
+
+  .Since  {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
+  .Since  span {
+    color: orange;
+  }
+  .Since  h4 {
+    color: orange;
+    font-size: 2rem;
+  }
+  .Since  h2 {
+    font-size: 3.3rem;
+  }
+  .Since__contact {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    gap: 0;
+    align-items: center;
+    padding-top: 1rem;
+  }
+ .Since__contact h3 {
+    font-size: 2.2rem;
+  }
+ .Since__contact b {
+    font-size: 1.2rem;
+  }
+.Since__contact p {
+    line-height: 23px;
+    opacity: 0.9;
+  }
+    .Since__contact a  {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+
+.Since__contact a i {
+    margin-right: 4px;
+    font-weight: bold;
+    color: rgb(215, 140, 2);
+  }
+  .Since__contact i {
+    margin-right: 4px;
+    font-weight: bold;
+  }
+ .Since__contact button {
+    padding: 10px 15px;
+    margin-top: 1rem;
+    border-radius: 50px;
+    background-color:rgb(215, 140, 2) ;
+  }
+  /* Organic  */
+  .Organic  {
+    background-color: rgb(255, 249, 241);
+    width: 100%;
+    padding: 4rem 0;
+    margin-bottom: 9rem;
+  }
+.Organic  {
+  background-color: rgb(255, 249, 241);
+  width: 100%;
+  padding: 4rem 0;
+}
+.Organic   {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.Organic  h4 {
+  color: orange;
+  font-size:2rem;
+}
+.Organic   h2 {
+  font-size: 3rem;
+}
+.Organic__contact {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.item__contact {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  gap: 0;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+ .item__contact img {
+  width: 70%;
+  display: block;
+}
+.item__contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.item__contact a i {
+  background-color: rgb(255, 200, 98);
+  padding: 10px 11px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+ .item__contact p {
+  opacity: 0.9;
+  line-height: 24px;
+}
+/* Special */
+.Special {
+  width: 100%;
+  padding: 4rem 0;
+  background-image: url(/img/bg.jpg);
+  filter: brightness(90%);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+ .Special h2 {
+  font-size: 4rem;
+  color: rgba(255, 166, 0, 0.874);
+  margin-bottom: 1rem;
+}
+.Special h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+ .Special p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.Special__contact img{
+  width: 100%;
+ height: 100%;
+}
+ .Special__contact .item {
+  width: 40%;
+  margin: 0 auto;
+  height: 8vh;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+ .Special__contact .item input {
+  width: 40%;
+  height: 7vh;
+  border: 0;
+  text-indent: 10px;
+}
+ .Special__contact .item button {
+  height: 7vh;
+  border: 2px solid rgb(208, 137, 6);
+  background-color: rgb(208, 137, 6);
+  transition: all 0.3s linear;
+  font-size: 1.1rem;
+}
+ .Special__contact .item button:hover {
+  background-color: rgb(193, 125, 0);
+  border: 2px solid rgb(193, 125, 0);
+  transition: all 0.3s linear;
+}
+/* Pricing */
+.Pricing  {
+  text-align: center;
+  margin-top: 2rem;
+}
+.Pricing h4 {
+  color: orange;
+  font-size: 2rem;
+}
+.Pricing  h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.Pricing_contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0rem;
+  margin-right: 15%;
+}
+.Pricing_contact {
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.Pricing_contact h3{
+  font-size: 1.5rem;
+}
+ .item_contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  gap: 0;
+  margin-top: 1rem;
+}
+.item_contact img {
+  width: 35%;
+  border-radius: 100%;
+  margin-left: 35%;
+  position: relative;
+}
+ .item_contact p {
+  opacity: 0.8;
+}
+/* testimonial */
+.testimonial{
+ margin-top: 6rem;
+ margin-bottom: 8rem;
+}
+
+.testimonial h4{
+  color: black;
+}
+.testimonial h3{
+  color: orange;
+}
+.footer {
+  width: 100%;
+  padding: 4rem 0;
+  background-image: url(/img/bg.jpg);
+}
+.footer__contact {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  color: white;
+}
+.footer__contact .item h4 {
+  color: rgb(255, 255, 255);
+}
+ .footer__contact .item i {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  display: block;
+  letter-spacing: 1px;
+}
+.footer__contact .item b {
+  border: 1px solid white;
+  padding: 11px 14px;
+  transition: all 0.3s linear;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.footer__contact .item b:hover {
+  background-color: white;
+  color: black;
+}
+ .footer__contact .item a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 7px;
+  }
+.footer__contact .item p{
+    margin-bottom: 2rem;
+}
+.footer__contact .item .input input {
+  border: 0;
+  height: 7vh;
+  text-indent: 8px;
+  width: 70%;
+}
+.footer__contact .item .input span {
+  background-color: orange;
+  padding: 14px 5px;
+  color: black;
+}
+ .copyright {
+  margin-top: 3rem;
+  text-align: center;
+  color: white;
+}
+
+ .copyright .text {
+  width: 30%;
+  margin: 0 auto;
+}
+.copyright .text a {
+color: white;
+}
