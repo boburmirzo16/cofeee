@@ -19,7 +19,7 @@
   
   
   .header {
-    background-image: url(/img/carousel-2.jpg);
+    background-image: url(/img/carousel-1.jpg);
     background-size: cover;
     height: 100vh;
     margin-bottom: 5rem;
@@ -347,7 +347,7 @@
   margin-top: 1rem;
 }
 .footer__contact .item b:hover {
-  background-color: white;
+  background-color: rgb(0, 144, 205);
   color: black;
 }
  .footer__contact .item a {
